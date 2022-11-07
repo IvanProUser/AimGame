@@ -58,8 +58,8 @@ function getRandomCircle() {
     getRandomColor(circle)
     const size = getRandomNumber(10, 50);
     const {width, height} = board.getBoundingClientRect()
-    const x = getRandomNumber(0, width - size);
-    const y = getRandomNumber(0, height - size);
+    const x = getRandomNumber(0, width - size - 20);
+    const y = getRandomNumber(0, height - size - 20);
     circle.style.width = `${size}px`
     circle.style.height = `${size}px`
     circle.style.top = `${y}px`
