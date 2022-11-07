@@ -198,3 +198,9 @@ h1 {
 .screen h3 {
   margin-bottom: 30px;
 }
+
+@media (max-width: 520px) {
+  .board {
+    width: 90%;
+  }
+}
